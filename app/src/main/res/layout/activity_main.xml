@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.example.fianxeka.pratikum.MainActivity">
+
+    <TextView
+        android:id="@+id/mytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/titlehome"
+        android:textColor="@color/primarytext"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mytext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/lab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnclick"
+            android:padding="20dp"
+            android:text="@string/lab1"
+            android:theme="@style/Mybtn.Button" />
+
+        <Button
+            android:id="@+id/lab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnclick"
+            android:padding="20dp"
+            android:text="@string/lab2"
+            android:theme="@style/Mybtn.Button" />
+
+        <Button
+            android:id="@+id/lab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnclick"
+            android:padding="20dp"
+            android:text="@string/lab3"
+            android:theme="@style/Mybtn.Button" />
+
+        <Button
+            android:id="@+id/lab4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnclick"
+            android:padding="20dp"
+            android:text="@string/lab4"
+            android:theme="@style/Mybtn.Button" />
+
+
+    </LinearLayout>
+</RelativeLayout>

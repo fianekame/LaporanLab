@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Pratikum</string>
+    <string name="titlehome">LAPORAN LAB</string>
+    <string name="lab1">PRATIKUM LAB 1 | LAPORAN</string>
+    <string name="lab2">PRATIKUM LAB 2 | LAPORAN</string>
+    <string name="lab3">PRATIKUM LAB 3 | LAPORAN</string>
+    <string name="lab4">PRATIKUM LAB 4 | LAPORAN</string>
+    <string name="showHello">Show Greeting</string>
+    <string name="showNama">Halo 150411100108 Sofian Eka Sandra Ini Adalah Layout Baru</string>
+    <string name="sayHello">Selamat Datang Di Tugas Pertama Klik Tombol Dibawah. Say Hello</string>
+
+    <string-array name="position">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>IT</item>
+        <item>Mech</item>
+    </string-array>
+
+    <string-array name="kota">
+        <item>Surabaya</item>
+        <item>Bangkalan</item>
+        <item>Yogyakarta</item>
+    </string-array>
+
+</resources>
