@@ -28,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.lab3:
                 intent = new Intent(this,Lab3Activity.class);
                 break;
+
+            case R.id.lab4:
+                intent = new Intent(this,Lab4Activity.class);
+                break;
         }
         startActivity(intent);
 
