@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
     tools:context="com.example.fianxeka.pratikum.Lab6Activity">
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:theme="@style/lab5.Button"
+        android:text="Cek Custom"
+        android:onClick="onClick"
+        android:id="@+id/showcustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:theme="@style/lab5.Button"
+        android:text="Cek Alert"
+        android:onClick="onClick"
+        android:id="@+id/showalert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
