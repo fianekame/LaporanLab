@@ -61,6 +61,23 @@
             android:text="@string/lab4"
             android:theme="@style/Mybtn.Button" />
 
+        <Button
+            android:id="@+id/lab5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnclick"
+            android:padding="20dp"
+            android:text="@string/lab5"
+            android:theme="@style/Mybtn.Button" />
+
+        <Button
+            android:id="@+id/lab6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnclick"
+            android:padding="20dp"
+            android:text="@string/lab6"
+            android:theme="@style/Mybtn.Button" />
 
     </LinearLayout>
 </RelativeLayout>

@@ -5,6 +5,13 @@
     <string name="lab2">PRATIKUM LAB 2 | LAPORAN</string>
     <string name="lab3">PRATIKUM LAB 3 | LAPORAN</string>
     <string name="lab4">PRATIKUM LAB 4 | LAPORAN</string>
+    <string name="lab5">PRATIKUM LAB 5 | LAPORAN</string>
+    <string name="lab6">PRATIKUM LAB 6 | LAPORAN</string>
+    <string name="create_one">Create New</string>
+    <string name="open_existing">Open Existing</string>
+    <string name="welcome">Welcome to Board!​</string>
+    <string name="drawing">Name Your Drawing</string>
+    <string name="selectboard">Select A Board</string>
     <string name="showHello">Show Greeting</string>
     <string name="showNama">Halo 150411100108 Sofian Eka Sandra Ini Adalah Layout Baru</string>
     <string name="sayHello">Selamat Datang Di Tugas Pertama Klik Tombol Dibawah. Say Hello</string>

@@ -6,4 +6,6 @@
     <color name="colorLight">#B2DFDB</color>
     <color name="primarytext">#212121</color>
     <color name="white">#FFFFFF</color>
+    <color name="light_grey">#e0e0e0</color>
+    <color name="grey">#d0d0d0</color>
 </resources>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fianxeka.pratikum">
+
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -23,7 +24,10 @@
         <activity android:name=".Lab1Greeting" />
         <activity android:name=".Lab2Edit" />
         <activity android:name=".Lab3Submit" />
-        <activity android:name=".Lab4Activity"></activity>
+        <activity android:name=".Lab4Activity" />
+        <activity android:name=".Lab5Activity" />
+        <activity android:name=".Lab6Activity" />
+        <activity android:name=".Lab5Drawing"></activity>
     </application>
 
 </manifest>

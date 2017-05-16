@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/grey" >
+
+    <Button
+        android:id="@+id/btn_one_create_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/lab5.Button"
+        android:text="@string/create_one"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/btn_margin_vertical"
+        android:onClick="onButtonClick" />
+
+    <Button
+        android:id="@+id/btn_one_open_existing"
+        android:layout_width="match_parent"
+        android:theme="@style/lab5.Button"
+        android:layout_height="wrap_content"
+        android:text="@string/open_existing"
+        android:layout_below="@id/btn_one_create_new"
+        android:onClick="onButtonClick" />
+
+</RelativeLayout>
